@@ -82,6 +82,16 @@ table {
             background-color: var(--dark-gray);
             color: var(--white);
         }
+
+        header, footer {
+            background-color: var(--black);
+            color: var(--white);
+          }
+          
+          section {
+            background-color: var(--blue-gray);
+            color: var(--white);
+          }
     }
     /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
