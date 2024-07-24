@@ -84,10 +84,10 @@ table {
         }
 
         header, footer {
-            background-color: var(--black);
+            background-color: var(--dark-gray);
             color: var(--white);
           }
-          
+
           section {
             background-color: var(--blue-gray);
             color: var(--white);
@@ -203,7 +203,7 @@ table {
 
     /* ---------- SMALL SCREEN STYLES ---------- */
     /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 640px) {
         header, footer{
             background-color: var(--lime-green);
             color: var(--dark-gray);
@@ -233,7 +233,7 @@ table {
 
     /* ---------- MEDIUM SCREEN STYLES ---------- */
     /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    @media only screen and (min-width: 641px) and (max-width: 1007px) {
         header, footer{
             background-color: var(--black);
             color: var(--white);
@@ -265,7 +265,7 @@ table {
 
     /* ---------- LARGE SCREEN STYLES ---------- */
     /* --------------- BEGIN LARGE SCREEN SIZES --------------- */ 
-    @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    @media only screen and (min-width: 1008px) and (max-width: 1440px) {
         header, footer{
             background-color: var(--lime-green);
             color: var(--dark-gray);
@@ -303,7 +303,7 @@ table {
 
     /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
     /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    @media only screen and (min-width: 769px) {
+    @media only screen and (min-width: 720px) {
         img{
         width: 300px;
         max-width: 300px;
@@ -313,7 +313,7 @@ table {
 
     /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
     /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-    @media only screen and (min-width: 1441px) {
+    @media only screen and (min-width: 1200px) {
         header, footer{
             background-color: var(--orange);
             padding-left: 5%;
